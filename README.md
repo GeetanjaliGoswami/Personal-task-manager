@@ -2,7 +2,7 @@
 
 ## Project Title & Brief Description
 
-This project is a **Personal Task Manager**, developed as a full-stack web application using **React** and **Node.js**. The application allows users to create, view, edit, delete, search, filter, and reorder personal tasks. Users can mark tasks as completed or active, set due dates, and visually identify overdue tasks. Task data is persisted using a JSON file, providing simple storage without requiring a database. This project was built for **Exercise 1: Personal Task Manager**.
+This project is a **Personal Task Manager**, developed as a full-stack web application using **React**, **Node.js**, and **Express.js**. The application allows users to create, view, edit, delete, search, filter, and reorder personal tasks. Users can mark tasks as completed, set due dates, and identify overdue tasks visually. Task data is persisted using a JSON file, making the application lightweight and easy to set up without requiring a database. This project was built as a full-stack coding exercise to demonstrate frontend development, backend API design, state management, and deployment.
 
 ---
 
@@ -28,7 +28,7 @@ https://github.com/GeetanjaliGoswami/Personal-task-manager
 
 ### React (Vite)
 
-Used for building a fast and responsive user interface with reusable components.
+Used to build a fast, component-based user interface using React Hooks and modern development tooling.
 
 ### Axios
 
@@ -40,7 +40,7 @@ Used for responsive and modern UI styling.
 
 ### @hello-pangea/dnd
 
-Used to implement drag-and-drop task reordering.
+Used to implement drag-and-drop task reordering functionality.
 
 ---
 
@@ -48,11 +48,11 @@ Used to implement drag-and-drop task reordering.
 
 ### Node.js
 
-JavaScript runtime environment used to run the server.
+JavaScript runtime used to run the server-side application.
 
 ### Express.js
 
-Used for building RESTful APIs and handling HTTP requests.
+Used to build RESTful APIs and handle HTTP requests.
 
 ### UUID
 
@@ -60,7 +60,7 @@ Used to generate unique identifiers for tasks.
 
 ### CORS
 
-Used to enable communication between the deployed frontend and backend.
+Used to allow communication between the deployed frontend and backend.
 
 ---
 
@@ -68,7 +68,7 @@ Used to enable communication between the deployed frontend and backend.
 
 ### JSON File Storage
 
-Task data is stored inside `server/data/tasks.json` for persistence without requiring a database.
+Task data is stored inside `server/data/tasks.json` to provide lightweight persistence without requiring a database.
 
 ---
 
@@ -195,7 +195,11 @@ PUT /api/tasks/:id
 
 ```json
 {
-  "message": "Task updated successfully"
+  "id": "123",
+  "title": "Updated Task",
+  "description": "Updated Description",
+  "dueDate": "2026-06-25",
+  "completed": false
 }
 ```
 
@@ -321,6 +325,8 @@ Personal-task-manager/
 * Drag-and-Drop Reordering
 * Persistent Storage Using JSON File
 * Responsive User Interface
+* Frontend Deployment on Vercel
+* Backend Deployment on Render
 
 ---
 
@@ -339,4 +345,15 @@ Given additional time, I would improve the application by:
 
 ---
 
-#
+# Known Limitations
+
+* The application currently supports only a single user.
+* Data is stored in a JSON file instead of a production database.
+* On cloud hosting platforms with ephemeral file systems, JSON file changes may not persist across server restarts or redeployments.
+* No authentication or user management has been implemented.
+
+---
+
+# Acknowledgements
+
+This project was developed with the assistance of AI tools (ChatGPT) for guidance, debugging support, and documentation drafting. All code was reviewed, understood, tested, and integrated manually.
