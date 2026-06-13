@@ -1,0 +1,66 @@
+[
+  {
+    "id": "e0d51fa3-50da-42f9-a484-a695b6d2d22e",
+    "title": "Submit Project Report",
+    "description": "Final documentation submission",
+    "dueDate": "2025-01-01",
+    "completed": false,
+    "createdAt": "2026-06-13T07:45:09.187Z"
+  },
+  {
+    "id": "163d2471-1569-4f89-8c22-467d04879105",
+    "title": "Learn Express Routing",
+    "description": "Understand CRUD APIs in Express",
+    "dueDate": "2026-06-18",
+    "completed": false,
+    "createdAt": "2026-06-13T07:44:47.913Z"
+  },
+  {
+    "id": "d1e76054-7499-4ff6-9fdf-bdb3300d8f7b",
+    "title": "Complete React Assignment",
+    "description": "Build Personal Task Manager UI",
+    "dueDate": "2026-06-20",
+    "completed": false,
+    "createdAt": "2026-06-13T07:44:20.829Z"
+  },
+  {
+    "id": "6c026acc-eb7a-43db-ad19-ad0935f95869",
+    "title": "Learn React",
+    "description": "",
+    "dueDate": null,
+    "completed": false,
+    "createdAt": "2026-06-13T06:42:22.425Z"
+  },
+  {
+    "id": "8e70ea45-7f9f-438b-9b9a-f6310c179aba",
+    "title": "Learn Tailwind CSS",
+    "description": "Practice responsive layouts",
+    "dueDate": "2026-07-01",
+    "completed": false,
+    "createdAt": "2026-06-13T07:45:25.855Z"
+  },
+  {
+    "id": "925e989a-acc1-4544-8fe0-4a1f6eb810a9",
+    "title": "Morning Workout",
+    "description": "Complete 30 minutes of cardio and stretching.",
+    "dueDate": "2026-06-14",
+    "completed": false,
+    "createdAt": "2026-06-13T08:12:49.282Z"
+  },
+  {
+    "id": "0c7124b1-48d3-40cb-96fd-3fd7adaef449",
+    "title": "Buy Groceries",
+    "description": "Milk, eggs, bread, fruits, and vegetables.",
+    "dueDate": "2026-06-15",
+    "completed": false,
+    "createdAt": "2026-06-13T08:13:30.661Z"
+  },
+  {
+    "id": "d20b065d-6ebf-4f41-8f35-f4b977b797f7",
+    "title": "Read a Book",
+    "description": "Read at least 20 pages of Atomic Habits.",
+    "dueDate": "2024-06-18",
+    "completed": true,
+    "createdAt": "2026-06-13T08:13:52.856Z"
+  }
+]
